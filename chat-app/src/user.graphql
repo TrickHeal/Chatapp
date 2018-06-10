@@ -1,0 +1,8 @@
+type user {
+  firstName: String
+  lastName: String
+}
+
+extend type Query {
+  getUser(id: ID!): user
+}
